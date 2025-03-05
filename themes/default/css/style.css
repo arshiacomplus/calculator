@@ -22,7 +22,7 @@ body {
 .calc {
     background: var(--primary-color);
     border-radius: 15px;
-    padding: calc(var(--base-size) * 0.8);
+    padding: calc(var(--base-size) * 1);
     width: min(95vw, 360px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     transform: scale(1);
@@ -41,7 +41,7 @@ body {
 .calculator {
     background: var(--primary-color);
     border-radius: 20px;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     width: 360px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
