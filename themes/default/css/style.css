@@ -4,7 +4,7 @@
     --accent-color: #3498db;
     --text-color: #ecf0f1;
     --hover-color: #2980b9;
-    --base-size: min(3vw, 3vh);
+    --base-size: min(2.5vw, 2.5vh);
 }
 
 body {
