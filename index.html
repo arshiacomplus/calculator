@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="themes/default/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="themes/default/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="themes/default/css/style.css">
+    <script src="themes/default/js/popper.min.js" ></script>
+    <script src="themes/default/js/bootstrap.min.js" ></script>
+    <script src="themes/default/js/jquery-3.7.1.min.js" ></script>
+    <script src="themes/default/js/decimal.js" defer ></script>
+    <script src="themes/default/js/script.js" ></script>
+    <script src="themes/default/js/script.defer.js" defer ></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="calc">
+        <input id="result" title="result" pattern="[0-9]*" type="text" class="form-control"></input>
+        <div id="pad" class="row row-cols-5 mt-5">
+            <button class="memory">MC</button>
+            <button class="memory">MR</button>
+            <button class="memory">M+</button>
+            <button class="memory">M-</button>
+            <button class="memory">MS</button>
+            <button class="scientific" id="2nd">2<sup>nd</sup></button>
+            <button class="scientific" id="mathPI">&#8508;</button>
+            <button class="scientific" id="mathE">e</button>
+            <button id="del-all">C</button>
+            <button id="back-space">&larr;</button>
+            <button class="operator" id="sqr">x<sup>2</sup></button>
+            <button class="operator" id="oneDiv"><sup>1</sup>/x</button>
+            <button class="operator" id="abs">|x|</button>
+            <button class="operator" id="exp">exp</button>
+            <button class="operator" id="mod">mod</button>
+            <button class="operator" id="sqrt">&#8730;</button>
+            <button class="operator parents">(</button>
+            <button class="operator parents">)</button>
+            <button class="operator" id="fact">n!</button>
+            <button class="operator" id="div">&divide;</button>
+            <button class="operator" id="power">x<sup>y</sup></button>
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="operator" id="cross">&times;</button>
+            <button class="operator" id="tenpower">10<sup>x</sup></button>
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="operator" id="mins">-</button>
+            <button class="operator" id="log">log</button>
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="operator" id="add">+</button>
+            <button class="operator" id="ln">Ln</button>
+            <button class="operator" id="plus-min">&plusmn;</button>
+            <button class="num">0</button>
+            <button class="num">.</button>
+            <button id="eq">=</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
