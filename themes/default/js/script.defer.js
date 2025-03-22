@@ -86,7 +86,13 @@ $('#sqr').click(() => {
 });
 
 $(`#tenpower`).click(()=>{
-    tenPowerSet($(`#result`).val());
+    if (isSecondFunctionActive) {
+        twoPowerSet($(`#result`).val());
+    }
+    else{
+        tenPowerSet($(`#result`).val());
+    }
+    
 })
 $(`#mathE`).click(()=>{
     $(`#result`).val(mathE($(`#result`).val()));
@@ -274,6 +280,11 @@ tenPowerSet=(n)=>{
     checkSet(n,"10^",[
         /(-?\d+\.?\d*)(\)*)$/,
         /10\^\((-?\d+\.?\d*)\)/]);
+}
+twoPowerSet=(n)=>{
+    checkSet(n,"2^",[
+        /(-?\d+\.?\d*)(\)*)$/,
+        /2\^\((-?\d+\.?\d*)\)/]);
 }
 mathE=(n)=>{
     return n+Math.E;
